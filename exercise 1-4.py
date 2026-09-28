@@ -1,4 +1,8 @@
-minutes=int(input("g-m:\n"))
+#total give minuets
+minutes=int(input("give minuets:\n"))
+#separate hours
 hours=minutes//60
+#separate minuets
 minutes=minutes%60
-print(hours,"h",minutes,"min",sep=" ")
+#final result
+print(hours, "h",'\t',minutes, "min", sep="")
